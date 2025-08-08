@@ -10,8 +10,10 @@
 
     <h1 id="dynamic-head">Hello World!</h1>
 
-    <input type="text" id="search-input" placeholder="add your text" />
-    <button id="submit-button" onclick="changeHeader()">Submit</button>
+    <input type="text" id="search-input" oninput="checkIfValid()" placeholder="add your text" />
+    <!-- <button id="reset-button" onclick="resetPage()">Reset</button> -->
+    <p id="valid-state"></p>
+    <img id="image" src="https://via.placeholder.com/150" alt="Placeholder Image" />
 
     <script src="js/script.js"></script>
 
