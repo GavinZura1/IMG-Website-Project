@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMG Search</title>
+    <link rel-"stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Image Search</h1>
 
-    <form action="/search">
-        <label for="search">Search:</label>
-        <input type="text" id="search" name="search"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+    <h1 id="dynamic-head">Hello World!</h1>
+
+    <input type="text" id="search-input" placeholder="add your text" />
+    <button id="submit-button" onclick="changeHeader()">Submit</button>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
